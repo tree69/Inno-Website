@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="youngpilots.vn,youngpilots,design,website,web design,mobile,mobile web,ecommerce,e-commerce,android,iphone,ios,graphics,portfolio,app,app design,thiet ke,thiết kế" name="keywords">
+<meta content="My name is Duc Anh, Alot of my friends call me or know me as Anh Bui. I am a Graphic Designer and front-end developer living on the beautiful Hanoi city of Vietnam, and I am very passionate about what I do. I hope you like my works and I would definitely love to hear from you! Email: mr.anhbui69@gmail.com. Portfolio: https://www.behance.net/buiducanh . Website: http://youngpilots.vn" name="description">
+<title>Inno - Site</title>
+
+
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<link href="css/reset.min.css" rel="stylesheet" type="text/css" />
+<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="fonts/Simple-Line-Icons-Webfont/simple-line-icons.css" rel="stylesheet" type="text/css">
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link href="css/font-face.css" rel="stylesheet" type="text/css" />
+
+
+
+<link href="css/lightslider.css" rel="stylesheet" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/lightslider.js"></script>
+<script>
+    	 $(document).ready(function() {
+			$("#content-slider").lightSlider({
+                loop:true,
+                keyPress:true
+            });
+            $('#image-gallery').lightSlider({
+                gallery:true,
+                item:1,
+                thumbItem:9,
+                slideMargin: 0,
+                speed:500,
+                auto:true,
+                loop:true,
+                onSliderLoad: function() {
+                    $('#image-gallery').removeClass('cS-hidden');
+                }  
+            });
+		});
+    </script>
+
+</head>
+
+<body>
+	<div class="container">
+    	<div class="content_bg clearfix">
+        	<div class="content01">
+            
+            	<ul id="menu">
+                  	<li><a href="index.html" class="active">Trang chủ</a></li>
+                    <li><a href="project.html">Dự án</a>
+                        <ul>
+                            <li><a href="#">Building</a></li>
+                            <li><a href="#">Công trình văn hóa</a></li>
+                            <li><a href="#">Công trình nhà ở công cộng</a></li>
+                            <li><a href="#">Nhà riêng</a></li>
+                            <li><a href="#">Cửa hàng - Cafe</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="news.html">Hoạt động</a></li>
+                    <li><a href="news.html">Công nghệ</a></li>
+                    <li><a href="contact.html">Liên hệ</a></li>
+                    <li><a href="#0" class="cd-popup-trigger1">Nội bộ</a></li>
+                    <div class="logo"><a href="intro.html"><img src="images/logo.png" /></a></div>
+                </ul>
+                
+            	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                  </ol>
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                      <img src="images/slider/01.jpg" alt="...">
+                      <div class="carousel-caption">
+                        <h2>Công trình Bảo tàng xanh</h2>
+                        <p>Hà Nội - 2013</p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="images/slider/02.jpg" alt="...">
+                      <div class="carousel-caption">
+                        <h2>VĂN PHÒNG KIẾN TRÚC INNO</h2>
+                        <p>TP Hồ Chí Minh - 2014</p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="images/slider/03.jpg" alt="...">
+                      <div class="carousel-caption">
+                       	<h2>Công trình Bảo tàng xanh</h2>
+                        <p>Hà Nội - 2013</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Controls -->
+                  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+            </div>
+            
+        	
+            
+            
+            <div class="content-project clearfix">
+            	<h2 style="margin-bottom:20px; text-transform:uppercase; font-size: 29px; font-family: 'RobotoCondensed-Regular', Helvetica, Arial, sans-serif;">Dự án tiêu biểu</h2>
+                <div class="content03-select clearfix">
+            	 <select class="">
+                    <option value="" data-display-text="LOẠI CÔNG TRÌNH">Loại công trình</option>
+                    <option value="lct1">Building</option>
+                    <option value="lct2">Công trình văn hóa</option>
+                    <option value="lct3">Công trình nhà ở công cộng</option>
+                    <option value="lct2">Nhà riêng</option>
+                    <option value="lct3">Cửa hàng - Cafe</option>
+                  </select>
+                  <select class="">
+                    <option value="" data-display-text="NĂM">Năm</option>
+                    <option value="lct1">2017</option>
+                    <option value="lct2">2016</option>
+                    <option value="lct3">2015</option>
+                  </select>
+                  <select class="">
+                    <option value="" data-display-text="ĐƠN VỊ THỰC HIỆN">Đơn vị thực hiện</option>
+                    <option value="lct1">Đơn vị 1</option>
+                    <option value="lct2">Đơn vị 2</option>
+                    <option value="lct3">Đơn vị 3</option>
+                  </select>
+                </div>
+            	
+                
+                <div class="content02 clearfix">
+            	<ul>
+                	<li>
+                    	<a href="#0" class="cd-popup-trigger"><img src="images/project/01.jpg"/></a>
+                        <div class="content02-info">
+                        	<a href="#0" class="cd-popup-trigger"><h4 class="title">SEA VILLA</h4></a>
+                            <p class="location">Mũi Né - 2014</p>
+                        </div>
+                        <!---  POPUP -->
+                        <div class="cd-popup" role="alert">
+                            <div class="cd-popup-container pj-content">
+                                <a href="#0" class="cd-popup-close img-replace"></a>
+                                
+                                <h2>Công trình trung tâm thương mại - triển lãm Vin Space</h2>
+                                <h3>Chủ đầu tư : Tập đoàn Vin Group     -     Hoàn thiện : 2013     -     Địa điểm : Hà Nội</h3>
+                                <!---  SOCIAL --->
+                                    <div class="social-btns">
+                                
+                                        <div>
+                                            <a href="javascript:void(0);" class="social-btn-flip">
+                                                <div class="social-btn-cube">
+                                                    <i class="social-btn-face default fa fa-lg fa-twitter twitter"></i>
+                                                    <i class="social-btn-face active fa fa-lg fa-twitter twitter"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                
+                                        <div>
+                                            <a href="javascript:void(0);" class="social-btn-flip">
+                                                <div class="social-btn-cube">
+                                                    <i class="social-btn-face default fa fa-lg fa-facebook facebook"></i>
+                                                    <i class="social-btn-face active fa fa-lg fa-facebook facebook"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                
+                                        <div>
+                                            <a href="javascript:void(0);" class="social-btn-flip">
+                                                <div class="social-btn-cube">
+                                                    <i class="social-btn-face default fa fa-lg fa-google-plus google"></i>
+                                                    <i class="social-btn-face active fa fa-lg fa-google-plus google"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                
+                                        <div>
+                                            <a href="javascript:void(0);" class="social-btn-flip">
+                                                <div class="social-btn-cube">
+                                                    <i class="social-btn-face default fa fa-lg fa-instagram instagram"></i>
+                                                    <i class="social-btn-face active fa fa-lg fa-instagram instagram"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                
+                                        <div>
+                                            <a href="javascript:void(0);" class="social-btn-flip">
+                                                <div class="social-btn-cube">
+                                                    <i class="social-btn-face default fa fa-lg fa-tumblr tumblr"></i>
+                                                    <i class="social-btn-face active fa fa-lg fa-tumblr tumblr"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                
+                                    </div>
+                                <!---  SOCIAL --->
+                                <div class="item">
+                                    <div class="clearfix" style="max-width:500px; margin:0 auto;">
+                                        <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
+                                            <li data-thumb="images/gallery/thumb-01.jpg"> 
+                                                <img src="images/gallery/01.jpg" />
+                                                 </li>
+                                            <li data-thumb="images/gallery/thumb-02.jpg"> 
+                                                <img src="images/gallery/02.jpg" />
+                                                 </li>
+                                            <li data-thumb="images/gallery/thumb-03.jpg"> 
+                                                <img src="images/gallery/03.jpg" />
+                                                 </li>
+                                            <li data-thumb="images/gallery/thumb-04.jpg"> 
+                                                <img src="images/gallery/04.jpg" />
+                                                 </li>
+                                            <li data-thumb="images/gallery/thumb-05.jpg"> 
+                                                <img src="images/gallery/05.jpg" />
+                                                 </li>
+                                            <li data-thumb="images/gallery/thumb-06.jpg"> 
+                                                <img src="images/gallery/06.jpg" />
+                                                 </li>
+                                            <li data-thumb="images/gallery/thumb-07.jpg"> 
+                                                <img src="images/gallery/07.jpg" />
+                                                 </li>
+                                            <li data-thumb="images/gallery/thumb-08.jpg"> 
+                                                <img src="images/gallery/08.jpg" />
+                                                 </li>
+                                            <li data-thumb="images/gallery/thumb-09.jpg"> 
+                                                <img src="images/gallery/08.jpg" />
+                                                 </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <p>Công trình trung tâm thương mại - triển lãm Vin Space</p>
+
+<p>Công trình tọa lạc trên diện tích gần 200 ha tại quận Cầu GIấy - TP Hà Nội với thiết kế theo xu hướng "phi thuyền". Toàn bộ phần mái của công trình kết hợp với thân tạo cảm giác cho người xem công trình như 1 tàu vũ trụ khổng lồ.</p>
+
+
+                                
+                            </div> <!-- cd-popup-container -->
+                        </div>
+						<!--  END POPUP -->
+                    </li>
+                    <li>
+                    	<a href=""><img src="images/project/02.jpg"/></a>
+                        <div class="content02-info">
+                        	<a href=""><h4 class="title">Nhà thờ ven biển</h4></a>
+                            <p class="location">Mũi Né - 2014</p>
+                        </div>
+                    </li>
+                    <li>
+                    	<a href=""><img src="images/project/03.jpg"/></a>
+                        <div class="content02-info">
+                        	<a href=""><h4 class="title">FUTURE THEATRE</h4></a>
+                            <p class="location">Phú Quốc - 2015</p>
+                        </div>
+                    </li>
+                    
+                    <li>
+                    	<a href=""><img src="images/project/04.jpg"/></a>
+                        <div class="content02-info">
+                        	<a href=""><h4 class="title">Apple Store</h4></a>
+                            <p class="location">TP HCM - 2014</p>
+                        </div>
+                    </li>
+                    <li>
+                    	<a href=""><img src="images/project/05.jpg"/></a>
+                        <div class="content02-info">
+                        	<a href=""><h4 class="title">Nhà thể thao đa năng</h4></a>
+                            <p class="location">Hải Phòng - 2014</p>
+                        </div>
+                    </li>
+                    <li>
+                    	<a href=""><img src="images/project/06.jpg"/></a>
+                        <div class="content02-info">
+                        	<a href=""><h4 class="title">Apple Store</h4></a>
+                            <p class="location">TP HCM - 2014</p>
+                        </div>
+                    </li>
+                    
+                    <li>
+                    	<a href=""><img src="images/project/07.jpg"/></a>
+                        <div class="content02-info">
+                        	<a href=""><h4 class="title">Nhà thể thao đa năng</h4></a>
+                            <p class="location">Hải Phòng - 2014</p>
+                        </div>
+                    </li>
+                    <li>
+                    	<a href=""><img src="images/project/08.jpg"/></a>
+                        <div class="content02-info">
+                        	<a href=""><h4 class="title">Nhà thể thao đa năng</h4></a>
+                            <p class="location">Hải Phòng - 2014</p>
+                        </div>
+                    </li>
+                    <li>
+                    	<a href=""><img src="images/project/09.jpg"/></a>
+                        <div class="content02-info">
+                        	<a href=""><h4 class="title">Công viên tuổi trẻ</h4></a>
+                            <p class="location">Phú Quốc - 2014</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+                <p style="text-align:center; margin-bottom:50px;"><a href="news.html" class="button">Xem thêm</a></p>
+            </div>
+            
+        </div>
+    </div>
+    <div class="container">
+        <div class="footer">
+        	<h2>Công ty TNHH INNO</h2>
+	        <p>Địa chỉ : 96 Hoàng Quốc Việt - Nghĩa Tân - Cầu Giấy - Hà Nội</p>
+           	<p>Hotline : 0912 776 xxx - Email : info@inno.com.vn</p>
+            <p>Giấy phép đăng ký kinh doanh và hoạt động số :  </p>
+        </div>
+    </div>  
+    
+    <div class="banner right">
+    	<h2>Đối tác</h2>
+        <p>chủ đầu tư</p>
+        <ul>
+        	<li><a href="partner.html"><img src="images/doitac/01.png"/></a></li>
+            <li><a href="partner.html"><img src="images/doitac/02.png"/></a></li>
+            <li><a href="partner.html"><img src="images/doitac/03.png"/></a></li>
+        </ul>
+        <br/>
+        <br/>
+        <br/>
+        <h2>Đối tác</h2>
+        <p>hợp tác</p>
+        <ul>
+        	<li><a href="partner.html"><img src="images/doitac/01.png"/></a></li>
+            <li><a href="partner.html"><img src="images/doitac/02.png"/></a></li>
+            <li><a href="partner.html"><img src="images/doitac/03.png"/></a></li>
+        </ul>
+    </div>  
+    
+ 	<div class="cd-popup" role="alert">
+        <div class="cd-popup-container login">
+           	<p style="text-align:center;"><img src="images/logo-login.png" /></p>
+            <div class="form">
+            	<form class="register-form">
+                  <input type="text" placeholder="Email"/>
+                  <input type="password" placeholder="Mật khẩu"/>
+                  <button formaction="staff.html" >Đăng nhập</button>
+                  <p class="message">Trường hợp quên hoặc mất mật khẩu, liên hệ admin để lấy lại.</p>
+                </form>
+            </div>
+            <a href="#0" class="cd-popup-close img-replace"></a>
+        </div> <!-- cd-popup-container -->
+    </div>
+    
+	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+    <script src="js/index.js"></script>
+    
+</body>
+</html>
